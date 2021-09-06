@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                     
+}
+
+html,body{
+    width: 100%;
+    height: 100%;                     
+}
+
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color: #F3EEE8;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end; 
+    padding: 0 90px;                  
+}
+
+#logo{
+     display: flex;
+     flex-direction: column;                    
+     justify-content: center;                   
+     align-items: center;
+} 
+
+#logo h2{
+      font-size:30px;
+      font-family:'Voyage';
+}
+#logo h2{
+      font-size:30px;  
+      line-height: 17px;                
+}
+#nav i{
+      font-size: 35px;                   
+} 
+
+#first{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3EEE8;
+    display: flex;
+    padding-top: 12%;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#first .box h1{
+    font-size: 130px;
+    font-family: 'Voyage';
+    font-weight: 100;
+    line-height: 90px;
+}
+
+#first #sec{
+    /* background-color: blue; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#first #content{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+#first #content h3{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 15px;
+    color: #111;
+    /* font-weight: 600; */
+    letter-spacing: 0.5px;
+    font-family: 'Voyage';
+}
+
+#first #content h2{
+    font-size: 60px;
+    font-weight: 100;
+    color: #908D89;
+}
+
+#second{
+    width: 100%;
+    height: 80vh;
+    background-color: #F3EEE8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:12%;
+}
+
+#second h2{
+    font-size: 60px;
+    font-family:'Roboto';
+    font-weight: 400;
+}
+
+#second #and{
+    margin: 0 15px;
+    font-family: 'Voyage';
+}
+
+#second #arrow{
+    width: 50px;
+    height: 20px;
+}
+
+#third{
+    width: 100%;
+    height: 100vh;
+    background-color: #E3DACD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#third #circ{
+    width: 350px;
+    height: 420px;
+    border-radius: 70%;
+    border: 3px solid #ffff;
+    background-position: center;
+    background-size: cover; 
+    /* object-fit: cover; */
+    overflow: hidden;
+}
+
+#fourth{
+    width: 100%;
+    height: 100vh;
+    background-color: #F3EEE8;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+#fourth #top{
+    width: 100%;
+    height: 70px;
+    background-color: #D1CBC4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#fourth #top a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Voyage';
+    font-weight: 600;
+}
+
+#fourth #center{
+    width: 350px;
+    height: 40px;
+    background-color: #D1CBC4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+}
+
+#fourth #center #line{
+     width: 125px;
+     height: 1.5px;
+     margin-top: 5px;
+     background-color: rgb(7, 0, 0);
+}
+
+#fourth #bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#fourth #bottom h1{
+    font-family: 'Voyage';
+    font-weight: 500;
+    font-size: 70px;
+}
+
+#fifth{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: #F3EEE8;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#fifth h1{
+    text-align: center;
+    font-size: 170px;
+    font-family: 'Voyage';
+    font-weight: 500;
+    line-height: 130px;
+}
+
+#fifth svg{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    /* bottom: -55px; */
+    bottom: -75px;
+    color: #7AA0B2;
+}
+
+#sixth{
+    width: 100%;
+    overflow: hidden;
+    background-color: #F3EEE8;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 250px;
+}
+
+#cards{
+    height: 1500px;
+    background-color: #FFE699; 
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50% ;
+}
+
+#cards2{
+    height: 1200px;
+    margin-top: -60%;
+    background-color: #FFFFFF; 
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80% ;
+}
+
+#cards3{
+    height: 1200px;
+    margin-top: -50%;
+    background-color: #F3EEE8; 
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80% ;
+}
+
+#cards4{
+    height: 1200px;
+    margin-top: -50%;
+    background-color: #FFFFFF; 
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80% ;
+}
+
+#cards5{
+    height: 1200px;
+    margin-top: -50%;
+    background-color: #F3EEE8; 
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80% ;
+}
+
+#seventh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#seventh #top{
+    width: 100%;
+    height: 70px;
+    background-color: #E3DACD;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#seventh #center a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    font-family: 'Voyage';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#seventh #center{
+    width: 350px;
+    height: 40px;
+    background-color: #E3DACD;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-left-radius: 40px ;
+    border-top-right-radius: 40px ;
+}
+
